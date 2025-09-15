@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Poppins;
 }
 
 .container {
@@ -68,10 +69,11 @@
 
 .nav-ul {
     display: flex;
+    align-items: center;
     gap: 48px;
     text-decoration: none;
     list-style: none;
-    margin-left: 110px;
+    padding-left: 150px;
 }
 
 .hover.active {
@@ -93,8 +95,7 @@
 .nav-right {
     display: flex;
     align-items: center;
-    margin-right: -60px;
-
+    gap: 44px;
 }
 
 .input-right {
@@ -111,6 +112,8 @@
 .nav-input {
     display: flex;
     align-items: center;
+    padding-left: 70px;
+
 }
 
 .nav-input input {
@@ -125,8 +128,52 @@
 .nav-icons {
     display: flex;
     align-items: center;
-    gap: 16px;
-    padding-left: 44px;
+    gap: 10px;
+}
+
+.user-icon:hover {
+    border-radius: 50%;
+    background: rgb(34, 251, 251);
+    filter: brightness() invert(1)
+}
+
+.user-bg {
+    position: relative;
+    display: inline-block;
+}
+
+.user-icon {
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.user-select {
+    display: none;
+    position: absolute;
+    top: 110%;
+    left: 0;
+    background-color: #9C999D;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.user-select a {
+    width: 200px;
+    height: 50px;
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.user-select a:hover {
+    background-color: #f0f0f0;
+}
+
+.user-bg:hover .user-select {
+    display: block;
 }
 
 .nav-line {
@@ -399,7 +446,7 @@
     display: flex;
     padding-top: 40px;
     gap: 20px;
-    overflow-x: hidden;
+    overflow-x: auto;
     margin-right: -95px;
 }
 
