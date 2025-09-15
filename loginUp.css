@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Poppins;
 }
 
 .container {
@@ -29,6 +28,7 @@
 }
 
 .title_header {
+    font-family: Poppins;
     font-weight: 400;
     font-style: Regular;
     font-size: 14px;
@@ -127,10 +127,82 @@
 
 }
 
+.LoginUp {
+    display: flex;
+    align-items: center;
+    gap: 129px;
+    padding-bottom: 140px;
+    padding-top: 60px;
+}
 
 
+.input-border-botom {
+    width: 370px;
+    border-bottom: 1px gray solid;
+    padding-top: 8px;
+}
 
+.login-title-btn-input {
+    width: 371px;
+    height: 326px;
+}
 
+.login-title {
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 36px;
+    line-height: 30px;
+    letter-spacing: 4%;
+    padding-bottom: 24px;
+}
+
+.login-desc {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    padding-bottom: 48px;
+}
+
+.login-input {
+    border: none;
+    padding-top: 40px;
+}
+
+.btn-desc {
+    display: flex;
+    align-items: center;
+    gap: 87px;
+    padding-top: 40px;
+}
+
+.login-btn {
+    width: 143px;
+    height: 56px;
+    background-color: #DB4444;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+.password-desc {
+    color: #DB4444;
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
 
 
 

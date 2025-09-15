@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Poppins;
 }
 
 .container {
@@ -29,6 +28,7 @@
 }
 
 .title_header {
+    font-family: Poppins;
     font-weight: 400;
     font-style: Regular;
     font-size: 14px;
@@ -171,6 +171,7 @@
 .input-border-botom {
     width: 370px;
     border-bottom: 1px gray solid;
+    padding-top: 8px;
 }
 
 .create-btn {
