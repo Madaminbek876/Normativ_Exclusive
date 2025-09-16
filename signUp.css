@@ -164,6 +164,7 @@
 }
 
 .sign-input {
+    width: 370px;
     border: none;
     padding-top: 40px;
 }
