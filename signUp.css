@@ -266,8 +266,24 @@ footer {
     padding-bottom: 24px;
 }
 
-.fotter-desc {
+.fotter-li {
     font-family: Poppins;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    padding-bottom: 16px;
+}
+
+.fotter-li a {
+    font-family: Poppins;
+    text-decoration: none;
+    list-style: none;
+    color: white;
     font-weight: 400;
     font-style: Regular;
     font-size: 16px;
@@ -280,6 +296,7 @@ footer {
     display: flex;
     align-items: center;
     position: relative;
+    padding-top: 16px;
 }
 
 .fotter-input {

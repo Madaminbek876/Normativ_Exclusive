@@ -1463,7 +1463,7 @@ footer {
     padding-top: 80px;
     padding-bottom: 60px;
     padding-left: 135px;
-    padding-right: 135px;
+    padding-right: 135px;   
 }
 
 .fotter-title {
@@ -1516,6 +1516,7 @@ footer {
     display: flex;
     align-items: center;
     position: relative;
+    padding-top: 16px;
 }
 
 .fotter-input {
