@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cart</title>
-    <link rel="stylesheet" href="./cart.css">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -37,10 +37,10 @@
                 <a class="" href="./index.html">Home</a>
             </li>
             <li class="nav-li">
-                <a href="./contact.html">Contact</a>
+                <a class="hover active" href="#">Contact</a>
             </li>
             <li class="nav-li">
-                <a href="./about.html">About</a>
+                <a class="" href="#">About</a>
             </li>
             <li class="nav-li">
                 <a href="./signUp.html">Sign Up</a>
@@ -51,8 +51,8 @@
                 <img src="./assets/svg/searchh.svg" alt="">
             </div>
             <div class="nav-icons">
-                <img src="./assets/svg/like+4.svg" alt="">
-                <img src="./assets/svg/shop+2.svg" alt="">
+                <img src="./assets/svg/like.svg" alt="">
+                <img src="./assets/svg/shopS.svg" alt="">
                 <div class="user-bg">
                     <div>
                         <img class="user-icon" src="./assets/svg/users-icon.svg" alt="">
@@ -86,90 +86,54 @@
     </nav>
     <hr class="nav-line">
     <section class="container">
-        <nav>
-            <ul class="cart-header-title">
+        <nav class="nav-flex">
+            <ul class="chekOut-link">
                 <li>
                     <a href="./index.html">Home</a>
                 </li>
-                <p>/</p>
+                <p class="slesh">/</p>
                 <li>
-                    <a class="hover-cart active" href="">Cart</a>
+                    <a class="hover-nav active" href="./contact.html">Contact</a>
                 </li>
             </ul>
         </nav>
-        <div class="info-detalis">
-            <div class="info-category">
-                <h2>Product</h2>
-                <h2>Price</h2>
-                <h2>Quantity</h2>
-                <h2>Subtotal</h2>
-            </div>
-        </div>
-        <div class="product-cart-info">
-            <div>
-                <div class="info-product">
-                    <div class="tv-img-icon">
-                        <img class="otmena" src="./assets/svg/otmena.svg" alt="">
-                        <img class="tv" src="./assets/svg/Monitor.svg" alt="">
+    </section>
+    <section class="container">
+        <div class="contact">
+            <div class="contact-left-info">
+                <div class="contact-title-svg">
+                    <div>
+                        <div class="icon-title-flex">
+                            <img src="./assets/svg/icons-phone.svg" alt="">
+                            <h3>Call To Us</h3>
+                        </div>
+                        <p class="icon-title-p">We are available 24/7, 7 days a week.</p>
+                        <p class="icon-title-p">Phone: +8801611112222</p>
                     </div>
-                    <h2 class="tv-title">LCD Monitor</h2>
-                </div>
-            </div>
-            <h2 class="info-price">$650</h2>
-            <div>
-                <div class="select-vetor">
-                    <p>01</p>
-                    <img src="./assets/svg/vector.svg" alt="">
-                </div>
-            </div>
-            <h2 class="info-price-right">$650</h2>
-        </div>
-        <div class="product-cart-info">
-            <div>
-                <div class="info-product">
-                    <div class="tv-img-icon">
-                        <img class="tv" src="./assets/svg/jostik-qizil.svg" alt="">
+                    <div class="fotter-line-bottom"></div>
+                    <div>
+                        <div class="icon-title-flex">
+                            <img src="./assets/svg/icons-mail.svg" alt="">
+                            <h3>Write To US</h3>
+                        </div>
+                        <p class="icon-title-p">Fill out our form and we will contact <br> you within 24 hours.</p>
+                        <p class="icon-title-p">Emails: customer@exclusive.com</p>
+                        <p class="icon-title-p">Emails: support@exclusive.com</p>
                     </div>
-                    <h2 class="tv-title">H1 Gamepad</h2>
                 </div>
             </div>
-            <h2 class="info-price">$550</h2>
-            <div>
-                <div class="select-vetor">
-                    <p>02</p>
-                    <img src="./assets/svg/vector.svg" alt="">
+            <div class="contact-right">
+                <div class="contact-input-btn">
+                    <div class="inputs">
+                        <div class="contact-input-flex">
+                            <input type="text" placeholder="Your Name *">
+                            <input type="text" placeholder="Your Email *">
+                            <input type="text" placeholder="Your Phone *">
+                        </div>
+                        <input class="botom-desc-input" type="text" placeholder="Your Massage">
+                    </div>
                 </div>
-            </div>
-            <h2 class="info-price-right">$1100</h2>
-        </div>
-        <div class="cart-button-product">
-            <button>Return To Shop</button>
-            <button>Update Cart</button>
-        </div>
-        <div class="cart-bottom">
-            <div class="input-btn-cart">
-                <input class="input-cart" type="text" placeholder="Coupon Code">
-                <button class="apply-btn">Apply Coupon</button>
-            </div>
-            <div class="cart-botom-right">
-                <h2>Cart Total</h2>
-                <div class="cart-botom-title-price">
-                    <h3>Subtotal:</h3>
-                    <h3>$1750</h3>
-                </div>
-                <div class="fotter-line-bottom"></div>
-                <div class="cart-botom-title-price">
-                    <h3>Shipping:</h3>
-                    <h3>Free</h3>
-                </div>
-                <div class="fotter-line-bottom"></div>
-                <div class="cart-botom-title-price">
-                    <h3>Total:</h3>
-                    <h3>$1750</h3>
-                </div>
-                <button>
-                    <a href="./chekOut.html">Procees to checkout</a>
-                </button>
+                <button class="contact-btn">Send Massage</button>
             </div>
         </div>
     </section>
@@ -199,10 +163,10 @@
                         <a href="">My Account</a>
                     </li>
                     <li class="fotter-li">
-                        <a href="">Login / Register</a>
+                        <a href="./loginUp.html">Login / Register</a>
                     </li>
                     <li class="fotter-li">
-                        <a class="hover active" href="">Cart</a>
+                        <a href="./cart.html">Cart</a>
                     </li>
                     <li class="fotter-li">
                         <a href="./wishlist.html">Wishlist</a>
@@ -237,7 +201,7 @@
                 <div class="link-sec">
                     <img src="./assets/svg/Qr Code.svg" alt="">
                     <div>
-                        <img src="./assets/svg/GooglePlay.svg" alt="">
+                        <img src="../assets/svg/GooglePlay.svg" alt="">
                         <img src="./assets/svg/AppStore.svg" alt="">
                     </div>
                 </div>

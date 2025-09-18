@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+.header_bg {
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    padding-bottom: 12px;
+    padding-top: 12px;
+
+}
+
+.header_top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-left: 445px;
+}
+
+.title_header {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0%;
+}
+
+.aLink {
+
+    font-family: Poppins;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: white;
+    padding-left: 15px;
+    text-decoration-thickness: 0%;
+}
+
+.selec {
+    background-color: transparent;
+    color: white;
+    margin-left: 231px;
+    border: none;
+    width: 78px;
+    height: 24px;
+}
+
+.nav-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.nav-ul {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 150px;
+}
+
+.hover.active {
+    border-bottom: 1px solid gray;
+
+}
+
+.nav-li a {
+    text-decoration: none;
+    color: black;
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 44px;
+}
+
+.input-right {
+    width: 243px;
+    height: 38px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 4px;
+    background-color: #F5F5F5;
+    border: none;
+}
+
+.nav-input {
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+
+}
+
+.nav-input input {
+    position: absolute;
+}
+
+.nav-input img {
+    position: relative;
+    padding-left: 207px;
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-bg {
+    position: relative;
+    display: inline-block;
+}
+
+.user-icon {
+    margin-top: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+
+.user-select {
+    display: none;
+    position: absolute;
+    top: 110%;
+    right: 0;
+    color: white;
+    border-radius: 5px;
+    background: linear-gradient(270deg, rgba(41, 41, 41, 0.9), rgba(157 109 163));
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding-top: 8px;
+    padding-left: 20px;
+    width: 250px;
+    height: 230px;
+    padding: 10px
+}
+
+.user-select a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.nav-line {
+    margin-top: 16px;
+
+}
+
+.nav-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-flex h3 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0%;
+    padding-right: 50px;
+}
+
+.title-red-sec {
+    color: red;
+}
+
+.chekOut-link {
+    display: flex;
+    list-style: none;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    gap: 12px;
+}
+
+.chekOut-link a {
+    text-decoration: none;
+    color: gray;
+}
+
+.hover-nav.active {
+    color: #000000;
+}
+
+.slesh {
+    color: gray;
+}
+
+.title-h3-404 {
+    text-align: center;
+}
+
+.title {
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 110px;
+    line-height: 115px;
+    letter-spacing: 3%;
+    padding-bottom: 40px;
+}
+
+.desc {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    padding-bottom: 80px;
+}
+
+.btn-404 {
+    width: 254px;
+    height: 56px;
+    background-color: rgba(219, 68, 68, 1);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 140px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+footer {
+    color: white;
+    height: full;
+    background-color: #000000;
+}
+
+.fotters-sec {
+    display: flex;
+    gap: 87px;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    padding-left: 135px;
+    padding-right: 135px;
+}
+
+.fotter-title {
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3%;
+    padding-bottom: 24px;
+}
+
+.fotter-title-h3 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    padding-bottom: 24px;
+}
+
+.fotter-li {
+    font-family: Poppins;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    padding-bottom: 16px;
+}
+
+.fotter-li a {
+    font-family: Poppins;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    padding-bottom: 16px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-top: 16px;
+}
+
+.fotter-input {
+    width: 217px;
+    height: 48px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 4px;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 71px;
+}
+
+.input-icon {
+    position: absolute;
+    margin-left: 178px;
+}
+
+.link-sec {
+    display: flex;
+    gap: 10px;
+    width: 198px;
+    height: 84px;
+    align-items: center;
+    padding-top: 8px;
+}
+
+.fotter-desc-right {
+    color: #AFAFAF;
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    padding-bottom: 8px;
+}
+
+.internet-links {
+    display: flex;
+    gap: 24px;
+    padding-top: 24px;
+}
+
+.fotter-line-bottom {
+    border-bottom: 1px solid #141414;
+    margin-bottom: 16px;
+}
+
+.fotter-bottom {
+    display: flex;
+    gap: 6px;
+    color: #3D3D3D;
+    justify-content: center;
+    padding-bottom: 24px;
+}
