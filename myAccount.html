@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ChekOut</title>
-    <link rel="stylesheet" href="./chekOut.css">
+    <title>My Account</title>
+    <link rel="stylesheet" href="./myAccount.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -55,7 +55,7 @@
                 <img src="./assets/svg/shop+2.svg" alt="">
                 <div class="user-bg">
                     <div>
-                        <img class="user-icon" src="./assets/svg/users-icon.svg" alt="">
+                        <img class="user-icon" src="./assets/svg/users-bg.svg" alt="">
                     </div>
                     <div class="user-select">
                         <div class="dropdown-flex">
@@ -86,123 +86,80 @@
     </nav>
     <hr class="nav-line">
     <section class="container">
-        <nav>
+        <nav class="nav-flex">
             <ul class="chekOut-link">
                 <li>
-                    <a href="">Account</a>
+                    <a href="./index.html">Home</a>
                 </li>
                 <p class="slesh">/</p>
                 <li>
-                    <a href="./myAccount.html">My Account</a>
-                </li>
-                <p class="slesh">/</p>
-                <li>
-                    <a href="">Product</a>
-                </li>
-                <p class="slesh">/</p>
-                <li>
-                    <a href="">View Cart</a>
-                </li>
-                <p>/</p>
-                <li>
-                    <a class="hover-nav active" href="">CheckOut</a>
+                    <a class="hover-nav active" href="./myAccount.html">My Account</a>
                 </li>
             </ul>
+            <h3>Welcome! <span class="title-red-sec">Md Rimel</span></h3>
         </nav>
-        <h1 class="chekOut-title-header">Billing Details</h1>
-        <div class="checkOut">
-            <div class="checkout-left-input">
-                <div class="chekOut-title-input">
-                    <h3 class="checkout-title">First Name*</h3>
-                    <input class="checkout-input" type="text">
-                </div>
-                <div class="chekOut-title-input">
-                    <h3 class="checkout-title">Company Name</h3>
-                    <input class="checkout-input" type="text">
-                </div>
-                <div class="chekOut-title-input">
-                    <h3 class="checkout-title">Street Address*</h3>
-                    <input class="checkout-input" type="text">
-                </div>
-                <div class="chekOut-title-input">
-                    <h3 class="checkout-title">Apartment, floor, etc. (optional)</h3>
-                    <input class="checkout-input" type="text">
-                </div>
-                <div class="chekOut-title-input">
-                    <h3 class="checkout-title">Town/City*</h3>
-                    <input class="checkout-input" type="text">
-                </div>
-                <div class="chekOut-title-input">
-                    <h3 class="checkout-title">Phone Number*</h3>
-                    <input class="checkout-input" type="text">
-                </div>
-                <div class="chekOut-title-input">
-                    <h3 class="checkout-title">Email Address*</h3>
-                    <input class="checkout-input" type="text">
-                </div>
-                <div class="botom-title-img">
-                    <img src="./assets/svg/succsess.svg" alt="">
-                    <h2>Save this information for faster check-out next time</h2>
-                </div>
-            </div>
-            <div class="chekOut-right-sec">
-                <div class="checkOut-right-title">
-                    <div class="check-jostik">
-                        <img src="./assets/svg/jostik-qizil.svg" alt="">
-                        <h3 class="checkOut-title">LCD Monitor</h3>
+    </section>
+    <section class="container">
+        <div class="account">
+            <div>
+                <div>
+                    <h3 class="saibar-left-title-top">Manage My Account</h3>
+                    <div class="nav-title">
+                        <h3 class="my-profile">My Profile</h3>
+                        <h3 class="saibar-left-title">Address Book</h3>
+                        <h3 class="saibar-left-title">My Payment Options</h3>
                     </div>
-                    <h3 class="checkOut-title">$650</h3>
-                </div>
-                <div class="checkOut-right-title">
-                    <div class="check-jostik">
-                        <img src="./assets/svg/Monitor.svg" alt="">
-                        <h3 class="checkOut-title">H1 Gamepad</h3>
-                    </div>
-                    <h3 class="checkOut-title">$1100</h3>
                 </div>
                 <div>
-                    <div class="chekOut-title-flex">
-                        <h3>Subtotal:</h3>
-                        <h3>$1750</h3>
+                    <h3 class="saibar-left-title-top">My Orders</h3>
+                    <div class="nav-title">
+                        <h3 class="saibar-left-title">My Returns</h3>
+                        <h3 class="saibar-left-title">My Cancellations</h3>
                     </div>
-                    <div class="fotter-line-bottom"></div>
-                    <div class="chekOut-title-flex">
-                        <h3>Shipping:</h3>
-                        <h3>Free</h3>
+                    <h3 class="saibar-left-title-top">My WishList</h3>
+                </div>
+            </div>
+            <div class="account-right-input-info">
+                <div class="info-input-title">
+                    <h2>Edit Your Profile</h2>
+                    <div class="text-input-flex">
+                        <div>
+                            <h3>First Name</h3>
+                            <input type="text" placeholder="Md">
+                        </div>
+                        <div>
+                            <h3>Last Name</h3>
+                            <input type="text" placeholder="Rimel">
+                        </div>
                     </div>
-                    <div class="fotter-line-bottom"></div>
-                    <div class="chekOut-title-flex">
-                        <h3>Total:</h3>
-                        <h3>$1750</h3>
+                    <div class="text-input-flex">
+                        <div>
+                            <h3>Email</h3>
+                            <input type="text" placeholder="rimel1111@gmail.com">
+                        </div>
+                        <div>
+                            <h3>Address</h3>
+                            <input type="text" placeholder="Kingston, 5236, United State">
+                        </div>
+                    </div>
+                    <div class="botom-input-noFlex">
+                        <div>
+                            <h3>Password Changes</h3>
+                            <input class="input-botom-account" type="text" placeholder="Current Passwod">
+                        </div>
+                        <div>
+                            <input class="input-botom-account" type="text" placeholder="New Passwod">
+                            <input class="input-botom-account" type="text" placeholder="Confirm New Passwod">
+                        </div>
+                    </div>
+                    <div class="cancel-btn">
+                        <h3>Cancel</h3>
+                        <button>Save Changes</button>
                     </div>
                 </div>
-                <div class="bank-link">
-                    <div class="bank-select">
-                        <div class="select-dumalo"></div>
-                        <h3 \>Bank</h3>
-                    </div>
-                    <div class="bank-svg">
-                        <img src="./assets/svg/Bkash.svg" alt="">
-                        <img src="./assets/svg/Visa.svg" alt="">
-                        <img src="./assets/svg/Mastercard.svg" alt="">
-                        <img src="./assets/svg/Nagad.svg" alt="">
-                    </div>
-                </div>
-                <div class="bank-select-2">
-                    <div class="select-dumalo-2">
-                        <div class="select-dumalo-ichki"></div>
-                    </div>
-                    <h3>Cash on delivery</h3>
-                </div>
-                <div class="checkOut-right-input-btn">
-                    <input type="text" placeholder="Coupon Code">
-                    <button>Apply Coupon</button>
-                </div>
-                <button class="order-btn">Place Order</button>
             </div>
         </div>
     </section>
-
     <footer>
         <div class="fotters-sec">
             <div>
