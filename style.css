@@ -501,6 +501,11 @@
     position: relative;
 }
 
+.card1 a {
+    color: black;
+    text-decoration: none;
+}
+
 .card2 {
     width: 270px;
     height: 350px;
@@ -939,7 +944,7 @@
     width: 32px;
     height: 37px;
 
-}
+}   
 
 .dayss {
     width: 28px;
@@ -1463,7 +1468,7 @@ footer {
     padding-top: 80px;
     padding-bottom: 60px;
     padding-left: 135px;
-    padding-right: 135px;   
+    padding-right: 135px;
 }
 
 .fotter-title {
