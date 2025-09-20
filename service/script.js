@@ -1,9 +1,9 @@
-function ikitataHarf(str) {
+function IkkitaHarf(str) {
   let bormi = false;
   for (let i = 0; i < str.length; i++) {
     for (let j = i + 1; j < str.length; j++) {
       if (str[i] === str[j]) {
-        console.log("Ikkita bir hil harf bu =", str[i]);
+        console.log(str[i]);
         bormi = true;
       }
     }
@@ -12,6 +12,5 @@ function ikitataHarf(str) {
     console.log(null);
   }
 }
-ikitataHarf("Javascript");
-ikitataHarf("Frontend");
-ikitataHarf("Python");
+IkkitaHarf("javascript");
+IkkitaHarf("Python");
